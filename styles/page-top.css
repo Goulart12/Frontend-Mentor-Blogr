@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-top {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to right, hsl(13, 100%, 72%),  hsl(353, 100%, 62%));
+    overflow: hidden;
+    border-bottom-left-radius: 90px;
+}
+
+.page-top .back-img {
+    z-index: 0;
+    margin-top: -1300px;
+    margin-left: -400px;
+}
+
+.page-top header {
+    z-index: 1;
+    margin-top: -1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.page-top header .logoImg {
+    margin-right: 50px;
+}
+
+.page-top header .navigation {
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page-top header .navigation .main-menu-item {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.page-top header .navigation .main-menu-item a {
+    text-decoration: none;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.page-top header .header-btn {
+    margin-left: 1000px;
+}
+
+.page-top header .header-btn .loginBtn {
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    background: none;
+    border-radius: 30px;
+    border: none;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+
+    transition: .3s;
+}
+
+.page-top header .header-btn .loginBtn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(353, 100%, 62%);
+}
+
+.page-top header .header-btn .signBtn {
+    width: 100px;
+    height: 40px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    border: none;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(353, 100%, 62%);
+
+    transition: .3s;
+}
+
+.page-top header .header-btn .signBtn:hover {
+    background: hsl(355, 100%, 74%);
+    color:hsl(0, 0%, 100%);
+}
+
+.page-top header .hidden-menu {
+    display: none;
+}
+
+.page-top .top-content {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.page-top .top-content h1 {
+    font-family: 'Overpass', sans-serif; 
+    font-size: 48px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.page-top .top-content p {
+    font-family: 'Overpass', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.page-top .top-content .top-content-btn {
+    margin-top: 20px;
+}
+
+.page-top .top-content .top-content-btn .startBtn {
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    border: none;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(353, 100%, 62%);
+
+    transition: .3s;
+}
+
+.page-top .top-content .top-content-btn .startBtn:hover {
+    background: hsl(355, 100%, 74%);
+    color:hsl(0, 0%, 100%);
+}
+
+.page-top .top-content .top-content-btn .learnBtn {
+    width: 100px;
+    height: 40px;
+    background: none;
+    border-radius: 30px;
+    border: solid 2px hsl(0, 0%, 100%);
+
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+
+    transition: .3s;
+}
+
+.page-top .top-content .top-content-btn .learnBtn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(353, 100%, 62%);
+}
