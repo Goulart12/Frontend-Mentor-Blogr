@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bottom-page {
+    width: 100%;
+    height: 300px;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 90px;
+}
+
+.bottom-page footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 300px 0 100px;
+}
+
+.bottom-page footer .logoImg-footer {
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.bottom-page footer .navigation-footer {
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom-page footer .navigation-footer .footer-menu-item {
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+}
+
+.bottom-page footer .navigation-footer .footer-menu-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
+.bottom-page footer .navigation-footer .footer-menu-item .footer-list .footer-menu-sub-item {
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.bottom-page footer .navigation-footer .footer-menu-item .footer-list .footer-menu-sub-item a {
+    font-size: 16px;
+    font-style: normal;
+    color: hsl(240, 2%, 79%);
+}
+
+.bottom-page .attribution {
+    margin-top: 70px;
+}
