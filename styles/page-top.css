@@ -13,6 +13,7 @@
     background: linear-gradient(to right, hsl(13, 100%, 72%),  hsl(353, 100%, 62%));
     overflow: hidden;
     border-bottom-left-radius: 90px;
+    z-index: 1;
 }
 
 .page-top .back-img {
@@ -45,11 +46,17 @@
     margin-right: 20px;
 }
 
-.page-top header .navigation .main-menu-item a {
-    text-decoration: none;
-    font-weight: 400;
+.page-top header .navigation .main-menu-item button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     color: hsl(0, 0%, 100%);
-    
+}
+
+.page-top header .navigation .main-menu-item button img {
+    margin-left: 5px;
 }
 
 .page-top header .header-btn {
@@ -96,8 +103,33 @@
 }
 
 .page-top header .hidden-menu {
+    position: absolute;
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    background-color: hsl(0, 0%, 100%);
+    width: 140px;
+    height: 140px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
+
+.page-top header .hidden-menu .sub-menu-item a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.5;
+    color: hsl(207, 13%, 34%);
+}
+
+.page-top header .hidden-menu .sub-menu-item a:hover {
+    color: hsl(240, 10%, 16%);
+}
+
 
 .page-top .top-content {
     z-index: 1;

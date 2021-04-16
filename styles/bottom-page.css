@@ -37,7 +37,6 @@
     list-style: none;
     margin-right: 150px;
     margin-top: 50px;
-    
 }
 
 .bottom-page footer .navigation-footer .footer-menu-item a {
@@ -56,6 +55,10 @@
     font-size: 16px;
     font-style: normal;
     color: hsl(240, 2%, 79%);
+}
+
+.bottom-page footer .navigation-footer .footer-menu-item .footer-list .footer-menu-sub-item a:hover {
+    text-decoration: underline;
 }
 
 .bottom-page .attribution {

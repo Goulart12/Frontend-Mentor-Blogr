@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./styles/topic.css">
   <link rel="stylesheet" href="styles/second-content.css">
   <link rel="stylesheet" href="styles/bottom-page.css">
+  <link rel="stylesheet" href="styles/responsive.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -27,8 +28,8 @@
     <header>
       <img src="./images/logo.svg" alt="Blogr" class="logoImg">
       <ul class="navigation">
-        <li class="main-menu-item"><a href="">Product <img src="/images/icon-arrow-light.svg" alt=""></a>
-          <ul class="hidden-menu">
+        <li id="firstMenuItem" class="main-menu-item"><button type="button" class="main-menu-btn" onclick="productButton()">Product<img src="/images/icon-arrow-light.svg" alt=""></button>
+          <ul id="navMenu1" class="hidden-menu" >
             <li class="sub-menu-item"><a href="">Overview</a></li>
             <li class="sub-menu-item"><a href="">Pricing</a></li>
             <li class="sub-menu-item"><a href="">Marketplace</a></li>
@@ -36,7 +37,7 @@
             <li class="sub-menu-item"><a href="">Integrations</a></li>
           </ul>
         </li>
-        <li class="main-menu-item"><a href="">Company <img src="/images/icon-arrow-light.svg" alt=""></a>
+        <li class="main-menu-item"><button class="main-menu-btn1">Company <img src="/images/icon-arrow-light.svg" alt=""></button>
           <ul class="hidden-menu">
             <li class="sub-menu-item"><a href="">About</a></li>
             <li class="sub-menu-item"><a href="">Team</a></li>
@@ -44,7 +45,7 @@
             <li class="sub-menu-item"><a href="">Careers</a></li>
           </ul>
         </li>
-        <li class="main-menu-item"><a href="">Connect <img src="/images/icon-arrow-light.svg" alt=""></a>
+        <li class="main-menu-item"><button class="main-menu-btn2">Connect <img src="/images/icon-arrow-light.svg" alt=""></button>
           <ul class="hidden-menu">
             <li class="sub-menu-item"><a href="">Contact</a></li>
             <li class="sub-menu-item"><a href="">Newsletter</a></li>
@@ -167,5 +168,6 @@
     </div>
   </section>
   
+  <script src="./scripts/header.js"></script>
 </body>
 </html>

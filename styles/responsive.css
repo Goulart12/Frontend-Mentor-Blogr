@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@media (max-width: 475px) {
+    .page-top {
+        height: 650px;
+        z-index: 1;
+    }
+
+    .page-top .back-img {
+        z-index: 0;
+        margin-top: -1300px;
+        margin-left: -600px; 
+    }
+
+    .page-top header .logoImg {
+        margin-right: 300px;
+    }
+
+    .page-top header .navigation {
+        display: none;
+    }
+
+    .page-top header .header-btn {
+        display: none;
+    }
+
+    .page-top .top-content {
+        text-align: center;
+    }
+
+    .page-top .top-content h1 {
+        font-size: 38px;
+    }
+
+    .page-top .top-content p {
+        font-size: 16px;
+    }
+
+    .page-top .top-content .top-content-btn .startBtn {
+        width: 120px;
+        height: 60px;
+    }
+
+    .page-top .top-content .top-content-btn .learnBtn {
+        width: 120px;
+        height: 60px;
+    }
+
+    /**Primeiro conteúdo**/
+
+    .first-content {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/illustration-editor-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 200px;
+    }
+
+    .first-content .first-content-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 600px;
+    }
+
+    .first-content .first-content-text .first-content-text-total {
+        width: 300px;
+        
+    }
+
+    .first-content .first-content-text img {
+       display: none;
+    }
+
+    /**topic**/
+
+    .topic {
+        margin-top: 500px;
+        width: 100%;
+        height: 600px;
+        background-image: url(/images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%),   hsl(237, 23%, 32%));
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+
+    .topic .topic-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        bottom: 200px;
+        margin: 0px;
+    } 
+
+    .topic .topic-content .topic-content-img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .topic .topic-content .topic-content-text {
+        width: 300px;
+    }
+
+    .topic .topic-content .topic-content-text h1 {
+        font-size: 38px;
+    }
+    
+    .topic .topic-content .topic-content-text p {
+        margin-top: 10px;
+    }
+
+    /**Second content**/
+
+    .second-content {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/illustration-laptop-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 50px;
+        margin-top: 0px;
+    }
+
+    .second-content .second-content-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 500px;
+    }
+
+    .second-content .second-content-text .second-content-text-total {
+        width: 300px;
+        margin: 0;
+    }
+
+    .second-content .second-content-text img {
+       display: none;
+    }
+
+    /**footer**/
+
+    .bottom-page {
+        width: 100%;
+        height: 800px;
+        margin-top: 120px;
+    }
+
+    .bottom-page footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        margin: 0
+    }
+
+    .bottom-page footer .logoImg-footer {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .bottom-page footer .navigation-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .bottom-page footer .navigation-footer .footer-menu-item {
+        list-style: none;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    
+}
