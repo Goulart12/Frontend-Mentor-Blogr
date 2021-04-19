@@ -24,15 +24,15 @@
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 1;
-    margin-top: 20px;    
+    padding: 0; 
+    margin: 20px 15% 0 15%;   
 }
  
 .second-content .second-content-text img {
     z-index: 0;
-    position: relative;
-    right: 80px;
+    
 }
 
 .second-content .second-content-text .second-content-text-total {
