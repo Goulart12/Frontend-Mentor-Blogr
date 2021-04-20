@@ -5,12 +5,10 @@
     .page-top {
         height: 650px;
         z-index: 1;
-    }
-
-    .page-top .back-img {
-        z-index: 0;
-        margin-top: -1300px;
-        margin-left: -600px; 
+        background-image: url(/images/bg-pattern-intro.svg), linear-gradient(to right, hsl(13, 100%, 72%),  hsl(353, 100%, 62%));
+        background-repeat: no-repeat;
+        background-position: 35% 40%;
+        background-size: 1700px, cover;
     }
 
     .page-top header .logoImg {
@@ -182,3 +180,16 @@
     }
     
 }
+
+/**@media () {
+
+    .first-content .first-content-text {
+        margin-top: 10%;
+        
+    }
+
+    .first-content .first-content-text img {
+        width: 600px;
+        height: 600px;
+    }
+}**/

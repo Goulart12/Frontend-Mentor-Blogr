@@ -30,7 +30,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 1;
     padding: 0;
     margin: 20px 20% 0 20%;
@@ -70,8 +70,7 @@
 
 .first-content .first-content-text img {
     z-index: 0;
-    position: relative;
-    left: 200px;
+    margin-left: 20%;
 }
 
 
