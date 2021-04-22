@@ -31,6 +31,8 @@
     margin-left: 80px;
 }
 
+
+
 .page-top header .navigation {
     display: inline-flex;
     margin-left: 5%;
@@ -40,6 +42,12 @@
 .page-top header .navigation .main-menu-item {
     list-style: none;
     margin-right: 20px;
+}
+
+.page-top header .navigation .main-menu-btn,
+.main-menu-btn1,
+.main-menu-btn2 {
+    cursor: pointer;
 }
 
 /**Botão do Product**/
@@ -125,7 +133,6 @@
 }
 
 .page-top header .header-btn {
-    margin-left: 0px;
     margin-right: 5%;
 }
 
