@@ -10,7 +10,7 @@ function productButtonAtivado() {
 
 function productButton() {
     let navi = document.querySelector('.hidden-menu')
-    navi.classList.toggle('active')
+    navi.classList.toggle('active') 
 }
 
 
@@ -61,6 +61,16 @@ window.onclick = function(event) {
         }
     }  
   }
+
+  function burgerMenuBtn() {
+    let menu = document.querySelector('.navigation')
+    let botao = document.querySelector('.header-btn')
+    let burger = document.querySelector('.burgerBtn')
+
+    menu.classList.toggle('active')
+    botao.classList.toggle('active')
+    burger.classList.toggle('active')
+}
 
 
 

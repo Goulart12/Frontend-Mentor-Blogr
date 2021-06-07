@@ -18,7 +18,7 @@
     z-index: 1;
 } 
 
-.page-top header {
+.page-top header  {
     z-index: 1;
     margin-top: 60px;
     display: flex;
@@ -31,7 +31,9 @@
     margin-left: 80px;
 }
 
-
+.page-top header .burgerBtn {
+    visibility: hidden;
+}
 
 .page-top header .navigation {
     display: inline-flex;

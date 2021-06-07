@@ -22,10 +22,12 @@
     }
 
     .page-top header .burgerBtn {
+        visibility: initial;
         position: absolute;
         left: 350px;
         width: 30px;
         height: 30px;
+        border: none;
         cursor: pointer;
         background: url(../images/icon-hamburger.svg);
         background-size: 30px;
@@ -35,7 +37,7 @@
     }
 
     .page-top header .burgerBtn.active {
-        position: fixed;
+        position: absolute;
         right: 20px;
         background: url(../images/icon-close.svg);
         background-size: 30px;
@@ -46,15 +48,19 @@
     .page-top header .navigation {
         width: 400px;
         height: 400px;
-        position: fixed;
+        position: absolute;
         top: 120px;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background: #fff;
         z-index: 10;
         margin: 0 5% 0 5%;
+    }
+
+    .page-top header .navigation.active {
+        display: flex;
     }
 
     .page-top header .navigation .main-menu-item {
@@ -94,6 +100,7 @@
         padding-left: 0px;
         border-radius: 8px;
         margin-top: 10px;
+        z-index: 12;
     }
 
     .page-top header .hidden-menu1 {
@@ -114,6 +121,7 @@
         padding-left: 0px;
         border-radius: 8px;
         margin-top: 10px;
+        z-index: 12;
     }
 
     .page-top header .hidden-menu2 {
@@ -134,10 +142,51 @@
         padding-left: 0px;
         border-radius: 8px;
         margin-top: 10px;
+        z-index: 12;
     }
 
     .page-top header .header-btn {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 510px;
         display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        z-index: 10;
+        border-top: solid 1px;
+        margin: 0 5% 0 5%;
+    }
+
+    .page-top header .header-btn.active {
+        display: flex;
+    }
+
+    .page-top header .header-btn .loginBtn {
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+        color: hsl(240, 10%, 16%);
+    
+        transition: .3s;
+    }
+    
+    .page-top header .header-btn .loginBtn:hover {
+        background: hsl(355, 100%, 74%);
+        color:hsl(0, 0%, 100%);
+    }
+    
+    .page-top header .header-btn .signBtn {
+        color: hsl(240, 10%, 16%);
+    
+        transition: .3s;
+    }
+    
+    .page-top header .header-btn .signBtn:hover {
+        background: hsl(355, 100%, 74%);
+        color:hsl(0, 0%, 100%);
     }
 
     .page-top .top-content {
